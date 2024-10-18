@@ -59,15 +59,15 @@ const DigitalSignage: React.FC = () => {
           bottom: 0,
           left: 0,
           width: '100%',
-          height: '20px',
-          backgroundColor: 'rgba(0, 0, 255, 0.3)'
+          height: '20px'
+          // backgroundColor: 'rgba(0, 0, 255, 0.3)'
         }}
       >
         <div
           style={{
             width: `${progress}%`,
             height: '100%',
-            backgroundColor: 'blue',
+            backgroundColor: 'white',
             transition: 'width 0.1s linear'
           }}
         />
