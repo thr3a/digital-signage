@@ -11,9 +11,8 @@ env:
   IMAGE_NAME: ghcr.io/${{ github.repository }}:${{ github.run_number }}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
-  id-token: write
 
 jobs:
   build:
