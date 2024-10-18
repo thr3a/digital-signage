@@ -48,9 +48,9 @@ const DigitalSignage: React.FC = () => {
         src={images[currentImageIndex]}
         alt='Digital Signage'
         style={{
-          maxWidth: '100%',
-          maxHeight: 'calc(100% - 40px)',
-          objectFit: 'contain'
+          width: '100%',
+          height: 'calc(100% - 40px)',
+          objectFit: 'contain' // または 'contain' に変更
         }}
       />
       <div
